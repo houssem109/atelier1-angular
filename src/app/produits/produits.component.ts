@@ -5,9 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './produits.component.html'
 })
 export class ProduitsComponent implements OnInit {
-  produits : string[]; //un tableau de chînes de caractères
+  products : string[]; //un tableau de chînes de caractères
   constructor(){
-    this.produits = ["PC Asus", "Imprimante Epson", "Tablette Samsung"];
+    this.products = ["PC Asus", "Imprimante Epson", "Tablette Samsung" , "Msi gf65"];
   }
   ngOnInit(): void {
     
